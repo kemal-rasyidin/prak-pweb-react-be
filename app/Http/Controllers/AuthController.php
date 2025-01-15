@@ -52,7 +52,7 @@ class AuthController extends Controller
         $request->user()->tokens()->delete();
 
         return [
-                'message' => 'You are logged out'
+                'message' => 'Anda keluar akun'
             ];
     }
 }
